@@ -1,0 +1,10 @@
+version: '3'
+services:
+  node8:
+    container_name: node-line-notify
+    image: ses2/node:8
+    environment:
+      - LINE_TOKEN="$LINE_TOKEN"
+    tty: true
+    volumes:
+      - ./app:/app

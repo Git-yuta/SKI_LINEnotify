@@ -1,0 +1,11 @@
+{
+    "name": "line-notify",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "author": "",
+    "dependencies": {
+      "axios": "^0.18.0",
+      "querystring": "^6.4.0"
+    }
+  }
